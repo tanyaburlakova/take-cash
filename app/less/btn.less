@@ -1,6 +1,9 @@
-@btn-bg: #ccc;
-@btn-text: #555;
-@btn-height: 32px;
+@btn-bg: #c94f4a;
+@btn-purpure: #b2a3b5;
+@btn-green: #78ca78;
+@btn-text: #fff;
+@btn-f-size: 14px;
+@btn-height: 40px;
 
 .btn {
 	background: @btn-bg;
@@ -12,6 +15,12 @@
 	color: @btn-text;
 	transition: background .3s;
 	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size: @btn-f-size;
+	padding: 10px 60px;
+	text-align: center;
 	&__text {
 		display: inline-block;
 		height: @btn-height;
@@ -25,6 +34,12 @@
 	&:active {
 		transition: none;
 		background: @btn-bg;
+	}
+	&_green {
+		background: @btn-green;
+	}
+	&_purpure {
+		background: @btn-purpure;
 	}
 	&_wide {
 		width: 100%;

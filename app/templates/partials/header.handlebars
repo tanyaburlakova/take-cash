@@ -1,41 +1,58 @@
 <header class="site-header">
 	<div class="container">
-		<svg class="icon icon-cart" xmlns="http://www.w3.org/2000/svg" version="1.1"><use xlink:href="icons/svg.svg#cart"></use></svg>
 		{{!-- Navigation --}}
 		<nav class="navigation">
 			<ul class="navigation__list">
 				<li class="navigation__item">
 					<a href="" class="navigation__link">
-						<i class="icon"></i>
+						<svg class="icon icon-kassa" xmlns="http://www.w3.org/2000/svg" version="1.1">
+							<use xlink:href="icons/svg.svg#kassa"></use>
+						</svg>
 						<span class="icon-text">кассы</span>
 					</a>
 				</li>
 				<li class="navigation__item">
 					<a href="" class="navigation__link">
-						<i class="icon"></i>
+						<svg class="icon icon-check" xmlns="http://www.w3.org/2000/svg" version="1.1">
+							<use xlink:href="icons/svg.svg#check"></use>
+						</svg>
 						<span class="icon-text">чековые принтеры</span>
 					</a>
 				</li>
 				<li class="navigation__item">
 					<a href="" class="navigation__link">
-						<i class="icon"></i>
+						<svg class="icon icon-bottle" xmlns="http://www.w3.org/2000/svg" version="1.1">
+							<use xlink:href="icons/svg.svg#bottle"></use>
+						</svg>
 						<span class="icon-text">для егаис</span>
 					</a>
 				</li>
 			</ul>
 		</nav>
+		<div class="site-header__right">
+			{{!-- Phone --}}
+			<div class="call-me">
+				<a href="tel:88005554545" class="call-me__link">
+					<i class="icon icon-phone"></i>
+					<span class="icon-text">8-800-555-45-45</span>
+				</a>
+			</div>
+			{{!-- Cart --}}
+			<div class="cart">
+				<a href="" class="cart__link">
+					<svg class="icon icon-cart" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<use xlink:href="icons/svg.svg#cart"></use>
+					</svg>
+					<span class="icon-text">корзина</span>
+					<span class="cart__count">13</span>
+				</a>
+			</div>
+		</div>
 		{{!-- Logo --}}
-		<a class="logo"></a>
-		{{!-- Phone --}}
-		<a href="" class="site-header__link site-header__link_phone">
-			<i class="icon icon_phone"></i>
-			<span class="icon-text">8-800-555-45-45</span>
-		</a>
-		{{!-- Cart --}}
-		<a href="" class="site-header__link site-header__link_cart">
-			<i class="icon icon_cart"></i>
-			<span class="icon-text">корзина</span>
-			<span class="count">13</span>
-		</a>
+		<h1 class="logo">
+			<a class="logo__link" href="">
+				<i class="icon icon-logo"></i>
+			</a>
+		</h1>
 	</div>
 </header>

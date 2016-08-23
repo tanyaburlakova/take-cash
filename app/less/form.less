@@ -1,38 +1,64 @@
 .form {
-	&__header {
+    &__header {
+        margin: 0 0 15px;
+    }
+    &__text {
+        font-size: 13px;
+    }
+    &__content {
+        .clearfix();
+    }
+    &__row {
+        margin-bottom: 20px;
 
-	}
-	&__title {
+        .clearfix();
+    }
+    &__column {
+        float: left;
+        min-height: 20px;
+        &_left {
+            width: 40%;
+        }
+        &_right {
+            width: 60%;
+        }
+    }
+    &__cell {
+        float: left;
+        width: 50%;
+        &:first-child {
+            padding-right: 10px;
+        }
+        &:last-child {
+            padding-left: 10px;
+        }
+    }
+}
 
-	}
-	&__text {
+.form-consult {
+    position: relative;
+    z-index: 3;
+    height: 190px;
+    margin: -50px 0 20px;
+    margin-left: -20px;
+    padding: 35px 40px 30px;
+    background: rgba(255, 255, 255, .9);
 
-	}
-	&__content {
-		.clearfix();
-	}
-	&__row {
-		margin-bottom: 20px;
-		.clearfix();
-	}
-	&__column {
-		float: left;
-		min-height: 20px;
-		&_left {
-			width: 40%;
-		}
-		&_right {
-			width: 60%;
-		}
-	}
-	&__cell {
-		float: left;
-		width: 50%;
-		&:first-child {
-			padding-right: 10px;
-		}
-		&:last-child {
-			padding-left: 10px;
-		}
-	}
+    .clearfix;
+    &__field {
+        float: left;
+        width: 59.2592%;
+        padding-right: 20px;
+    }
+    &__btn {
+        float: right;
+        width: 40.74%;
+        padding: 10px 0;
+    }
+    &__title-icon {
+    	float: left;
+    }
+    &__title {
+		padding-left: 70px;
+    }
 }

@@ -34,7 +34,6 @@ gulp.task('default', [
     'jsConcat',
     'less',
     'svgstore',
-    'imagemin',
     'watch'
 ]);
 
@@ -47,8 +46,7 @@ gulp.task('build', [
     'pluginsConcatBuild',
     'jsConcatBuild',
     'lessBuild',
-    'svgstore',
-    'imagemin'
+    'svgstore'
 ]);
 
 /******************************

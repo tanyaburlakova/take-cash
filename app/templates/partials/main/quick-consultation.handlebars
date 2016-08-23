@@ -1,18 +1,23 @@
 <!-- Form -->
-<form action="" class="form">
+<form action="" class="form-consult form">
 	<!-- Header -->
 	<header class="form__header">
-		<h2 class="form__title">
-			Быстрая консультация
-		</h2>
-		<p class="form__text">
-			Оставьте свой номер и наш ковбой перезвонит Вам через две минуты
-		</p>
+		<svg class="form-consult__title-icon icon icon-call" xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<use xlink:href="icons/svg.svg#call"></use>
+		</svg>
+		<div class="form-consult__title">
+			<h2 class="form__title title title_small">
+				Быстрая консультация
+			</h2>
+			<p class="form__text">
+				Оставьте свой номер и наш ковбой перезвонит Вам через две минуты
+			</p>
+		</div>
 	</header>
-	<label class="label">
+	<label class="form-consult__field label">
 		<!-- Input -->
 		<input type="text" class="input" name="phone" placeholder="">
 	</label>
 	<!-- Submit -->
-	<button class="btn" type="submit">позвоните мне</button>
+	<button class="form-consult__btn btn" type="submit">позвоните мне</button>
 </form>

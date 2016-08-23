@@ -1,0 +1,86 @@
+.site-footer {
+    padding: 55px 0 0;
+    color: @white;
+    background: @blue;
+
+    .clearfix;
+    &__left {
+        float: left;
+        width: 50.641%;
+        padding-left: 150px;
+    }
+    &__right {
+        float: right;
+        width: 49.35897%;
+        padding-left: 70px;
+    }
+}
+
+.contacts {
+    margin: 0 0 35px;
+    &__title {
+    	margin-bottom: 50px;
+    }
+    &__address {
+        font-size: 11px;
+        font-weight: 700;
+        margin: 0 0 25px;
+        text-transform: uppercase;
+    }
+    &__link {
+        color: @white;
+    }
+    &__button {
+        width: 190px;
+        margin: 0 15px 35px 0;
+        padding: 10px 0;
+    }
+}
+
+.footer-navigation {
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top;
+    &:first-child {
+    	margin-right: 90px;
+    }
+    &__list {
+        .list-reset();
+    }
+    &__item {
+        margin: 0 0 17px;
+    }
+    &__link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: @white;
+    }
+}
+
+.socials {
+    font-size: 0;
+
+    .list-reset();
+    &__item {
+        display: inline-block;
+        vertical-align: top;
+        background: @blue-dark1;
+        &:first-child {
+            background: @blue-dark2;
+        }
+        &:nth-child(3) {
+            background: @blue-dark;
+        }
+    }
+    &__link {
+        font-size: 24px;
+        line-height: 70px;
+        display: block;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        color: @white;
+    }
+}

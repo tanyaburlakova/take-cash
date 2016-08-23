@@ -1,29 +1,40 @@
 {
-	"name": "gulp-frontend-boilerplate",
-	"version": "1.2.0",
-	"homepage": "https://github.com/fatuk/gulp-frontend-boilerplate",
-	"authors": [
-		"fatuk <fatukk@gmail.com>"
-	],
-	"moduleType": [
-		"amd"
-	],
-	"license": "MIT",
-	"private": true,
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	],
-	"overrides": {
-		"normalize.less": {
-			"ignore": "normalize.less"
-		}
-	},
-	"dependencies": {
-		"jquery": "~2.1.1",
-		"normalize.less": "^1.0.0"
-	}
+  "name": "gulp-frontend-boilerplate",
+  "version": "1.2.0",
+  "homepage": "https://github.com/fatuk/gulp-frontend-boilerplate",
+  "authors": [
+    "fatuk <fatukk@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "normalize.less": {
+      "ignore": "normalize.less"
+    },
+    "svg4everybody": {
+      "main": [
+        "dist/svg4everybody.js",
+        "dist/svg4everybody.legacy.js"
+      ]
+    },
+    "slick-carousel": {
+      "main": "slick/slick.js"
+    }
+  },
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "normalize.less": "^1.0.0",
+    "svg4everybody": "^2.1.0",
+    "slick-carousel": "^1.6.0"
+  }
 }

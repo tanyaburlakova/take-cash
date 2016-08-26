@@ -1,0 +1,50 @@
+.gallery {
+    position: relative;
+    overflow: hidden;
+    &__item {
+        position: relative;
+        height: 520px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    .slick-slide {
+        height: 520px !important;
+    }
+    &__inner {
+        position: absolute;
+        right: 0;
+        bottom: 70px;
+        width: 49.35897%;
+        padding-right: 210px;
+    }
+    &__block {
+        position: relative;
+        padding: 30px 70px 20px;
+        background: rgba(246, 207, 74, .9);
+    }
+    &__btn {
+        font-size: 36px;
+        line-height: 60px;
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        cursor: pointer;
+        transition: all .1s ease;
+        color: @white;
+        border: none;
+        background: #e9c5ba;
+        &_next {
+            background: #b2a3b5;
+        }
+        &:hover {
+            font-size: 44px;
+        }
+    }
+    &__controls {
+        position: absolute;
+        top: 0;
+        right: 146px;
+        width: 60px;
+    }
+}

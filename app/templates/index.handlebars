@@ -17,12 +17,18 @@
 <body>
 	<!-- HEADER -->
 	{{>header}}
-	<!-- GALLERY -->
-	{{>gallery}}
-	<!-- GALLERY -->
-	{{>gallery-dotts}}
-	<!-- FOOTER -->
-	{{>footer}}
+	<div class="content">
+		<!-- GALLERY -->
+		{{>gallery}}
+		<!-- Main -->
+		{{>main}}
+		<!-- GALLERY -->
+		{{>gallery-dotts}}
+		<!-- GALLERY -->
+		{{>main/how-we-work}}
+		<!-- FOOTER -->
+		{{>footer}}
+	</div>
 	<script src="js/plugins.min.js"></script>
 	<script src="js/app.js?v={{timestamp}}"></script>
 </body>

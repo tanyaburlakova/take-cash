@@ -19,7 +19,7 @@
 .contacts {
     margin: 0 0 35px;
     &__title {
-    	margin-bottom: 50px;
+        margin-bottom: 50px;
     }
     &__address {
         font-size: 11px;
@@ -42,7 +42,7 @@
     margin-top: 20px;
     vertical-align: top;
     &:first-child {
-    	margin-right: 90px;
+        margin-right: 90px;
     }
     &__list {
         .list-reset();
@@ -80,7 +80,11 @@
         display: block;
         width: 70px;
         height: 70px;
+        transition: all .1s ease;
         text-align: center;
         color: @white;
+        &:hover {
+            font-size: 30px;
+        }
     }
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="apple" viewBox="0 0 30 34.8" fill="currentColor">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="apple" viewBox="0 0 30 34.8">
 <style type="text/css">
 	.st0{fill:#181818;}
 </style>
@@ -16,12 +16,12 @@
 		c0.1-0.3-0.1-0.5-0.3-0.6c-0.1,0-0.9-0.2-1.8,0.4c-1.2,0.9-1.8,2.9-1.8,6c-0.1,7.1,3.2,8.4,3.3,8.5c0.1,0,0.1,0,0.2,0
 		c0.2,0,0.4-0.1,0.5-0.3C8.6,28.4,8.4,28.1,8.2,28z"/>
 </g>
-</symbol><symbol id="apteka" viewBox="0 0 25 25" fill="currentColor">
+</symbol><symbol id="apteka" viewBox="0 0 25 25">
 <style type="text/css">
 	.st0{fill:#181818;}
 </style>
 <path class="st0" d="M17,25H8v-8H0V8h8V0h9v8h8v9h-8V25z M9,24h7v-8h8V9h-8V1H9v8H1v7h8V24z"/>
-</symbol><symbol id="bottle" viewBox="0 0 24.3 39.7" fill="currentColor">
+</symbol><symbol id="bottle" viewBox="0 0 24.3 39.7">
 <style type="text/css">
 	.st0{fill:#E9C5BA;}
 	.st1{fill:#CBCBCB;}
@@ -45,7 +45,7 @@
 	<path class="st5" d="M16.1,23.7l0.8,1.8l-6.4,2.9l-0.8-1.8L16.1,23.7 M16.6,22.4l-0.9,0.4l-6.4,2.9l-0.9,0.4L8.9,27l0.8,1.8
 		l0.4,0.9l0.9-0.4l6.4-2.9l0.9-0.4l-0.4-0.9L17,23.3L16.6,22.4L16.6,22.4z"/>
 </g>
-</symbol><symbol id="call" viewBox="0 0 65.7 69.7" fill="currentColor">
+</symbol><symbol id="call" viewBox="0 0 65.7 69.7">
 <style type="text/css">
 	.st0{fill:#E6C3B8;}
 	.st1{fill:#7E4241;}
@@ -93,7 +93,7 @@
 <path class="st0" d="M61.2,58.2l-2.8-7.3c-0.2-0.7-0.1-1.2,0.3-1.3c0.5-0.1,1.2,0.7,1.4,1.2l2.3,4.4"/>
 <path class="st0" d="M62,53.9l-2.8-7.3c-0.2-0.7-0.1-1.2,0.3-1.3c0.5-0.1,1.2,0.7,1.4,1.2l2.3,4.4"/>
 <path class="st0" d="M63.3,50.4l-2.8-6.9c-0.2-0.7-0.1-1.2,0.3-1.3c0.5-0.1,1.2,0.7,1.4,1.2l1.9,3.1"/>
-</symbol><symbol id="cart" viewBox="0 0 30.5 40" fill="currentColor">
+</symbol><symbol id="cart" viewBox="0 0 30.5 40">
 <style type="text/css">
 	.st0{fill:#CCCCCC;}
 	.st1{fill:#DB4531;}
@@ -204,7 +204,7 @@
 		c0.2,0.2,0.1,0.5-0.1,0.7L20.1,31C20,31,19.9,31.1,19.8,31.1z"/>
 </g>
 <rect x="9.8" y="27.6" transform="matrix(0.8478 0.5303 -0.5303 0.8478 17.0784 -2.0304)" class="st16" width="4.5" height="2.4"/>
-</symbol><symbol id="check" viewBox="0 0 32.6 35.4" fill="currentColor">
+</symbol><symbol id="check" viewBox="0 0 32.6 35.4">
 <style type="text/css">
 	.st0{fill:#CCCCCC;}
 	.st1{fill:#5D5D5D;}
@@ -237,9 +237,9 @@
 <path class="st7" d="M13.2,16.5l11.5-1l0,0c-1.8-2.2-2.1-5.5-0.7-8l0,0l-11.5,1l0,0C11.2,11,11.5,14.2,13.2,16.5L13.2,16.5z"/>
 <path class="st8" d="M26.5,15.3l-13,1.1l0,0c1.6-2.5,1.3-5.8-0.7-8l0,0l13-1.1l0,0C27.8,9.5,28.1,12.8,26.5,15.3L26.5,15.3z"/>
 <polygon class="st9" points="24.4,24.5 11.5,25.7 12.8,18.5 14,20.4 15.7,16.2 17.8,18.1 19.7,16.9 22,19.7 23.7,16.5 25.9,18.4 "/>
-<polygon class="st10" points="26.5,25.3 13.5,26.5 14.8,18.3 16,20.2 17.7,16.1 19.8,17.9 21.7,16.7 24,19.5 25.7,16.4 27.9,18.2
+<polygon class="st10" points="26.5,25.3 13.5,26.5 14.8,18.3 16,20.2 17.7,16.1 19.8,17.9 21.7,16.7 24,19.5 25.7,16.4 27.9,18.2 
 	"/>
-</symbol><symbol id="coffee" viewBox="0 0 33.7 32.5" fill="currentColor">
+</symbol><symbol id="coffee" viewBox="0 0 33.7 32.5">
 <style type="text/css">
 	.st0{fill:#547682;}
 </style>
@@ -259,7 +259,7 @@
 	<path class="st0" d="M17.1,11.8c0.1,0.1,0.2,0.2,0.4,0.2c0.1,0,0.2,0,0.3-0.1c0.7-0.6,1.1-1.4,1.1-2.2c0-1.4-1-2.5-1.1-2.5
 		c-0.2-0.2-0.5-0.2-0.7,0c-0.2,0.2-0.2,0.5,0,0.7c0,0,0.8,0.8,0.8,1.8c0,0.5-0.3,1-0.8,1.5C17,11.3,16.9,11.6,17.1,11.8z"/>
 </g>
-</symbol><symbol id="fastfood" viewBox="0 0 35 35" fill="currentColor">
+</symbol><symbol id="fastfood" viewBox="0 0 35 35">
 <style type="text/css">
 	.st0{fill:#547682;}
 </style>
@@ -273,7 +273,7 @@
 	<path class="st0" d="M16.5,24c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5S17.9,24,16.5,24z M16.5,28
 		c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5S17.3,28,16.5,28z"/>
 </g>
-</symbol><symbol id="futbolka" viewBox="0 0 36 33" fill="currentColor">
+</symbol><symbol id="futbolka" viewBox="0 0 36 33">
 <style type="text/css">
 	.st0{fill:#547682;}
 </style>
@@ -281,7 +281,7 @@
 	 M27,32H9v-5h18V32z M31.7,12.7l-3.2-1.6C28.3,11,28.2,11,28,11c-0.2,0-0.4,0.1-0.5,0.1C27.2,11.3,27,11.7,27,12v14H9V12
 	c0-0.3-0.2-0.7-0.5-0.9C8.4,11.1,8.2,11,8,11c-0.2,0-0.3,0-0.4,0.1l-3.2,1.6l-3-4.5l9.7-7c1.1,0.7,3.8,2,7.1,2c2.4,0,4.7-0.7,6.8-2
 	c2.5,2,7.7,5.6,9.7,7L31.7,12.7z"/>
-</symbol><symbol id="kassa" viewBox="0 0 32.2 39.9" fill="currentColor">
+</symbol><symbol id="kassa" viewBox="0 0 32.2 39.9">
 <style type="text/css">
 	.st0{fill:#CCCCCC;}
 	.st1{fill:#5D5D5D;}
@@ -313,9 +313,9 @@
 	<path class="st7" d="M18.3,8.1c-0.5,0-0.9-0.4-1-0.9c0-0.6,0.4-1,0.9-1.1l11.2-1c0.5-0.1,1,0.4,1.1,0.9c0,0.6-0.4,1-0.9,1.1
 		L18.3,8.1C18.4,8.1,18.4,8.1,18.3,8.1z"/>
 </g>
-<polygon class="st8" points="27.9,5.3 18.2,6.1 17.7,0.5 18.1,1.5 18.8,0.5 20.2,1.3 21.5,0.2 22.5,1.1 23.9,0 25.2,0.9 26.1,0
+<polygon class="st8" points="27.9,5.3 18.2,6.1 17.7,0.5 18.1,1.5 18.8,0.5 20.2,1.3 21.5,0.2 22.5,1.1 23.9,0 25.2,0.9 26.1,0 
 	27,0.7 27.3,0 "/>
-<polygon class="st6" points="29,6.2 18.8,7.1 18.4,1.5 19.2,2.4 19.9,1.4 21.2,2.2 22.6,1.1 23.5,2 25,0.9 26.3,1.8 27.2,1 28,1.6
+<polygon class="st6" points="29,6.2 18.8,7.1 18.4,1.5 19.2,2.4 19.9,1.4 21.2,2.2 22.6,1.1 23.5,2 25,0.9 26.3,1.8 27.2,1 28,1.6 
 	28.4,0.9 "/>
 <g>
 	<line class="st8" x1="10.9" y1="21.2" x2="12.9" y2="21"/>
@@ -362,7 +362,7 @@
 	<path class="st11" d="M25.7,31c-0.5,0-1-0.4-1-0.9c0-0.5,0.4-1,0.9-1.1l2-0.2c0.5,0,1,0.4,1.1,0.9c0,0.5-0.4,1-0.9,1.1L25.7,31
 		C25.7,31,25.7,31,25.7,31z"/>
 </g>
-</symbol><symbol id="market" viewBox="0 0 33 30" fill="currentColor">
+</symbol><symbol id="market" viewBox="0 0 33 30">
 <style type="text/css">
 	.st0{fill:#181818;}
 </style>
@@ -373,7 +373,7 @@
 	c0.3,0.1,0.6,0.1,1,0.1c1.4,0,2.4-0.8,3-1.8c0.2,0.3,0.4,0.6,0.6,0.9c0.6,0.6,1.5,1,2.4,1c1.4,0,2.4-0.7,3-1.8
 	c1.2,1.8,2.9,1.8,3,1.8c0,0,0,0,0.1,0c0.3,0,0.7,0,1-0.1V25h-14V12.9z M5.5,29V12.9c0.9-0.3,1.5-0.9,2-1.7c0.3,0.5,0.6,0.9,1,1.2V26
 	h16V12.3c0.4-0.3,0.7-0.7,1-1.2c0.5,0.8,1.1,1.4,2,1.7V29H5.5z"/>
-</symbol><symbol id="store" viewBox="0 0 40 26.3" fill="currentColor">
+</symbol><symbol id="store" viewBox="0 0 40 26.3">
 <style type="text/css">
 	.st0{fill:#D2BE5B;}
 </style>

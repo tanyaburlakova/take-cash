@@ -12,7 +12,7 @@ body {
 
 p {
     line-height: 1.71428;
-    margin: 0 0 10px;
+    margin: 0 0 15px;
 }
 
 a {
@@ -33,44 +33,6 @@ a:hover {
 
 .content {
     padding-top: 70px;
-}
-
-.grid {
-    .clearfix;
-    &__row {
-        .clearfix;
-        &_grey {
-            background: #dfe0e0;
-            padding: 20px 0 0;
-            .grid__left {
-            padding-right: 20px;
-
-            }
-        }
-        &_white {
-            background: @white;
-            margin-top: -120px;
-
-            .grid__right {
-                border-left: 1px solid @grey;
-            }
-        }
-    }
-    &__left {
-        float: left;
-        width: 50.641%;
-        .grid__inner {
-            padding-left: 170px;
-        }
-    }
-    &__right {
-        float: right;
-        width: 49.35897%;
-        .grid__inner {
-            padding-left: 70px;
-            padding-right: 145px;
-        }
-    }
 }
 
 * {

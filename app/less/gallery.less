@@ -7,6 +7,10 @@
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
+        &.slick-current {
+            .gallery__block {
+            }
+        }
     }
     .slick-slide {
         height: 520px !important;
@@ -19,8 +23,9 @@
         padding-right: 210px;
     }
     &__block {
+        position: relative;
         padding: 30px 70px 20px;
-        background: rgba(246, 207, 74, .8);
+        background: rgba(246, 207, 74, .9);
     }
     &__btn {
         font-size: 36px;
@@ -37,8 +42,8 @@
     }
     &__controls {
         position: absolute;
+        top: 0;
         right: 146px;
-        bottom: 97px;
         width: 60px;
     }
 }

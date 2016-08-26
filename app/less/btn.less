@@ -1,78 +1,84 @@
 @btn-bg: #c94f4a;
 @btn-purpure: #b2a3b5;
 @btn-green: #78ca78;
-@btn-text: #fff;
+@btn-text: #ffffff;
 @btn-f-size: 14px;
 @btn-height: 40px;
 
 .btn {
-	background: @btn-bg;
-	padding: 0 20px;
-	border: none;
-	display: inline-block;
-	vertical-align: middle;
-	cursor: pointer;
-	color: @btn-text;
-	transition: background .3s;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	letter-spacing: 1px;
-	font-size: @btn-f-size;
-	padding: 10px 60px;
-	text-align: center;
-	&__text {
-		display: inline-block;
-		height: @btn-height;
-		line-height: @btn-height;
-		font-size: 20px;
-		vertical-align: middle;
-	}
-	&:hover {
-		.rgba(background, @btn-bg, .7);
-	}
-	&:active {
-		transition: none;
-		background: @btn-bg;
-	}
-	&_green {
-		background: @btn-green;
-	}
-	&_purpure {
-		background: @btn-purpure;
-	}
-	&_wide {
-		width: 100%;
-	}
-	&_upper {
-		text-transform: uppercase;
-	}
-	&_big {
-		text-transform: uppercase;
-		.btn__text {
-			height: 60px;
-			line-height: 60px;
-		}
-		.fa {
-			height: 60px;
-			line-height: 60px;
-		}
-	}
-	&_transparent {
-		background: none;
-		border: none;
-	}
-	.fa {
-		color: @btn-text;
-		font-size: 18px;
-		height: @btn-height;
-		line-height: @btn-height;
-		vertical-align: middle;
-		&:before {
-			vertical-align: middle;
-		}
-		& + .btn__text {
-			margin-left: 3px;
-		}
-	}
+    font-family: 'Roboto', sans-serif;
+    font-size: @btn-f-size;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 20px;
+    padding: 10px 60px;
+    cursor: pointer;
+    transition: background .3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: @btn-text;
+    border: none;
+    background: @btn-bg;
+    &__text {
+        font-size: 20px;
+        line-height: @btn-height;
+        display: inline-block;
+        height: @btn-height;
+        vertical-align: middle;
+    }
+    &:hover {
+        .rgba(background, @btn-bg, .7);
+    }
+    &:active {
+        transition: none;
+        background: @btn-bg;
+    }
+    &_green {
+        background: @btn-green;
+        &:hover {
+            .rgba(background, @btn-green, .7);
+        }
+    }
+    &_purpure {
+        background: @btn-purpure;
+        &:hover {
+            .rgba(background, @btn-purpure, .7);
+        }
+    }
+    &_wide {
+        width: 100%;
+    }
+    &_upper {
+        text-transform: uppercase;
+    }
+    &_big {
+        text-transform: uppercase;
+        .btn__text {
+            line-height: 60px;
+            height: 60px;
+        }
+        .fa {
+            line-height: 60px;
+            height: 60px;
+        }
+    }
+    &_transparent {
+        border: none;
+        background: none;
+    }
+    .fa {
+        font-size: 18px;
+        line-height: @btn-height;
+        height: @btn-height;
+        vertical-align: middle;
+        color: @btn-text;
+        &:before {
+            vertical-align: middle;
+        }
+        & + .btn__text {
+            margin-left: 3px;
+        }
+    }
 }

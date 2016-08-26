@@ -1,3 +1,4 @@
+// title
 .title {
     font-family: 'Roboto', sans-serif;
     font-size: 44px;
@@ -9,36 +10,46 @@
         margin-bottom: 15px;
     }
     &_x-small {
-    	font-size: 16px;
+        font-size: 16px;
+    }
+}
+
+//simple title
+.simple-title {
+    font-size: 18px;
+    font-weight: 700px;
+    margin: 0 0 15px;
+    &_small {
+        font-size: 14px;
     }
 }
 
 .image-bg {
-    background-position: 0 0;
     background-repeat: no-repeat;
+    background-position: 0 0;
     background-size: cover;
 }
 
 .price {
-    font-size: 44px;
-    color: @white;
     font-family: 'Roboto', sans-serif;
+    font-size: 44px;
     font-weight: 900;
     line-height: 1;
     margin: 0 0 20px;
+    color: @white;
 }
 
 .link-more {
     font-weight: 700;
     .icon {
-        background: @red;
+        font-size: 18px;
+        line-height: 20px;
         width: 20px;
         height: 20px;
-        line-height: 20px;
+        margin-left: 8px;
         text-align: center;
         color: @white;
-        font-size: 18px;
-        margin-left: 8px;
+        background: @red;
     }
     &_blue {
         .icon {
